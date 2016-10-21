@@ -1,0 +1,59 @@
+body {
+    background-image: url("http://dawnsescapadestravel.com/wp-content/uploads/2013/09/photodune-2230751-grunge-world-map-background-with-rose-compass-m-1024x665.jpg");
+    background-color: #cccccc;
+    background-size: 100%;
+    text-align: center;
+}
+
+button {
+    background-color: #8B4513 ; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+h1, h2, p {
+  color: white;
+  font-family: arial;
+  text-shadow: 2px 2px black  ;
+}
+
+#new-game-button {
+    background-color: wheat ; 
+    border: none;
+    color: #8B4513;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+#next-button {
+    background-color: #8B4513 ; 
+    border: none;
+    color: white;
+    padding: 15px 90px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    margin: 20px;  
+}
+
+#map {
+  width: 300px;
+  height:300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
