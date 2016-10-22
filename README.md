@@ -1,4 +1,4 @@
-# Capital Cities Quiz
+# Capital City Quiz
 
 
 Quick JS web app that tests your knowledge of world capital cities. Built using REST Countries API and Google Maps.
