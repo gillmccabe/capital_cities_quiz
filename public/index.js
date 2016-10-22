@@ -7,11 +7,13 @@ var requestComplete = function() {  //writing our callback function
   var country = countries[Math.floor(Math.random() * countries.length)];
   var country2 = countries[Math.floor(Math.random() * countries.length)];
   var country3 = countries[Math.floor(Math.random() * countries.length)];
+  var country4 = countries[Math.floor(Math.random() * countries.length)];
   var savedScore = localStorage.getItem("score");
   createUI(country);
   createButton('#button1', country, country);
   createButton('#button2', country2, country);
   createButton('#button3', country3, country);
+  createButton('#button4', country3, country);
   shuffleButtons();
   var savedScore = JSON.parse(localStorage.getItem("score", counter))
   if (savedScore) {
@@ -22,7 +24,7 @@ var requestComplete = function() {  //writing our callback function
   createNewGameButton();
   var container = document.getElementById('map');
   var center = { lat: country.latlng[0], lng: country.latlng[1] }
-  var map = new Map(container, center, 0)
+  var map = new Map(container, center, 2)
   map.addMarker(center);
 }
 
@@ -94,7 +96,7 @@ var makeRequest = function(url, callback) {
 
 
 var app = function(){
-  var url = "http://localhost:5000";
+  var url = "https://restcountries.eu/rest/v1/all";
   makeRequest(url, requestComplete); //passing url to our function
 }
 

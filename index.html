@@ -3,6 +3,8 @@
   <head>
     <title>Capital City Quiz</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Molengo" rel="stylesheet">
     <script type="text/javascript" src='index.js'></script>
     <script type="text/javascript" src="map.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
@@ -10,27 +12,33 @@
   <body>
   <br>
   <br>
-    <h1>Capital City Quiz</h1>
+    <div id='header'>
+      <h1 id='title'>Capital City Quiz</h1>
+    </div>
     <p id="score"></p>
-    <br>
-    <br>
-    <br>
-    <h2>What is the capital of...</h2>
-    <div id='info'>
-      <h1 id='country-name'></h1>
-      <div id='map'></div>
+    <div id='main-box'>
+      <div id='left-side'>
+        <br>
+        <h2>What is the capital of...</h2>
+        <div id='info'>
+          <h1 id='country-name'></h1>
+        </div>
+        <div id="shuffle">
+          <button id="button1"></button>
+          <button id="button2"></button>
+          <button id="button3"></button>
+          <button id="button4"></button>
+        </div>
+      </div>
+      <div id='right-side'>
+       <div id="map" ></div>
+      </div>
+      <div id='answer-box'>
+        <h1 id='answer'></h1>
+      </div>
+      <br>
     </div>
-    <h1 id='answer'></h1>
-    <br>
-    <div id="shuffle">
-      <button id="button1"></button>
-      <button id="button2"></button>
-      <button id="button3"></button>
-    </div>
-    <br>
-    <br>
     <button id="next-button">NEXT QUESTION</button>
-    <br>
-    <button id="new-game-button">START NEW GAME</button>
+    <button id="new-game-button">NEW GAME</button>
   </body>
 </html>

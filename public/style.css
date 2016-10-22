@@ -6,7 +6,7 @@ body {
 }
 
 button {
-    background-color: #8B4513 ; 
+    background-color: #8B4513; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -14,46 +14,99 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 15px;
+    border-radius: 4px;
     margin: 20px;
+    opacity: 0.95;
+}
+
+#title {
+    font-size: 65px;
+}
+
+#main-box {
+    border-radius: 2px;
+    background-color: rgba(245,222,179,0.5);
+    width: 860px;
+    height: 350px;
+    margin:0 auto;
+    margin-bottom: 40px;
+}
+
+#left-side {
+    width:500px;
+    float: left;
+}
+
+#right-side {
+    width: 350px;
+    float: right;
+}
+
+
+#button1, #button2, #button3, #button4 {
+    width: 170px;
+    font-family: 'Molengo', sans-serif;
+}
+
+button:hover { 
+    background-color: wheat;
+    color: #8B4513;
+    border: solid 2px #8B4513;
+}
+
+h1 {
+    font-family: 'Volkhov', serif;
+}
+
+h2, p {
+    font-family: 'Molengo', sans-serif;
 }
 
 h1, h2, p {
   color: white;
-  font-family: arial;
-  text-shadow: 2px 2px black  ;
+  text-shadow: 2px 2px #000000;
+}
+
+#score {
+    font-size: 25px;
+    margin:0 auto;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 #new-game-button {
-    background-color: wheat ; 
-    border: none;
-    color: #8B4513;
-    padding: 15px 32px;
+    background-color: wheat; 
+    color:  #8B4513;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 15px;
-    margin: 20px;
+    border-radius: 4px;
+    margin: 10px;  
+    width: 300px;
+    font-family: 'Molengo', sans-serif;
 }
 
 #next-button {
-    background-color: #8B4513 ; 
-    border: none;
-    color: white;
-    padding: 15px 90px;
+    background-color: wheat; 
+    color:  #8B4513;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 15px;
-    margin: 20px;  
+    border-radius: 4px;
+    margin: 10px;  
+    width: 300px;
+    font-family: 'Molengo', sans-serif;
 }
 
 #map {
-  width: 300px;
-  height:300px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  width: 250px;
+  height: 250px;
+  margin-top: 53px;
+  padding-right: 35px;
+  border-style: solid;
+  border-color: #8B4513;
+  }
 
